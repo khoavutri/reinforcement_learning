@@ -1,0 +1,175 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===== Môi trường ảo / công cụ =====
+.venv/
+venv/
+env/
+ENV/
+.python-version
+.conda/
+.uv/
+.pdm-python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Poetry
+poetry.lock.bak
+.poetry/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===== Kiểm thử / coverage =====
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+.hypothesis/
+
+# ===== Type checkers / linters / formatters =====
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pytype/
+.pyre/
+.pyright/
+.cache/
+
+# ===== Logs =====
+logs/
+*.log
+*.log.*
+wandb/
+mlruns/
+lightning_logs/
+runs/
+outputs/
+.events.out.tfevents.*
+
+# ===== TensorBoard / Weights & Biases / MLflow / Neptune =====
+events.out.tfevents.*
+tb_logs/
+tensorboard/
+checkpoints/
+*.ckpt
+
+# ===== Model & checkpoint (học tăng cường) =====
+*.pth
+*.pt
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.onnx
+*.pb
+*.tflite
+*.safetensors
+*.bin
+*.msgpack
+*.model
+*.params
+*.npz
+*.npy
+saved_models/
+models/
+weights/
+checkpoint*/
+ckpt*/
+snapshots/
+best_model*
+final_model*
+latest_model*
+
+# ===== Kết quả huấn luyện / đánh giá =====
+results/
+eval_results/
+replays/
+replay_buffer/
+buffer/
+memories/
+videos/
+recordings/
+monitor.csv
+monitor*.csv
+progress.csv
+episode_rewards*.csv
+training_metrics*.csv
+*.mp4
+*.avi
+*.gif
+
+# ===== Dữ liệu =====
+data/
+datasets/
+raw/
+processed/
+*.csv
+*.parquet
+*.feather
+*.jsonl
+!requirements*.txt
+
+# ===== Gym / Stable-Baselines3 / PettingZoo =====
+*.zip
+logs/ppo_*/
+tmp/
+temp/
+*.tmp
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.iml
+*.code-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Secrets / biến môi trường =====
+.env
+.env.*
+!.env.example
+*.pem
+secrets.json
+
+# ===== Misc =====
+.history/
+*.bak
+*.orig
+*.rej
